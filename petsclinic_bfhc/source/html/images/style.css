@@ -1,0 +1,269 @@
+/* CSS Document */
+
+body {
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+margin:0;
+padding:0;
+color :#696D5B;
+background-color:#C4CDCE;
+text-align:justify;
+}
+
+a:link {
+	color: #fff;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #fff;
+}
+a:hover {
+	text-decoration: underline;
+	color: #fff;
+}
+a:active {
+	text-decoration: none;
+	color: #fff;
+}
+
+#top_wrapper {
+width:900px;
+height:auto;
+margin:0 auto;
+}
+
+#logo {
+width:auto;
+height:auto;
+margin-bottom:10px;
+}
+
+h1 {
+font-size:40px;
+color:#535A5B;
+margin:0;
+padding:0;
+font-weight:normal;
+padding-top:20px;
+padding-left:10px;
+}
+
+.logo1 {
+color:#FFFFFF;
+}
+
+/*------------------MENU----------------------*/
+
+#foxmenucontainer{width:900px;height:36px;display:block;}
+
+#foxmenu{position:relative;display:block;height:36px;font-size:12px;
+font-family: Arial, Helvetica, sans-serif; width:890px; float:left;  background-image:url(menu_lcorner.jpg); background-repeat:no-repeat; background-position:left; background-color:#000;}
+
+#foxmenu ul{ height:36px;margin:0;padding:0;list-style-type:none;width:auto;}
+
+#foxmenu ul li{width:100px; height:36px;display:block;float:left; text-align:center; border-right:#4D4D4D 1px solid;}
+
+#foxmenu ul li a{display:block;float:left;color:#CFD3C1;text-decoration:none;
+padding:10px 0px 0 0px;height:26px; width:100px; text-transform:uppercase; font-weight:bold;}
+
+#foxmenu ul li a:hover{color:#A7BF25; width:100px; height:26px;
+}
+
+
+#rcorner {
+width:10px;
+height:36px;
+background-image:url(menu_rcorner.jpg);
+background-repeat:no-repeat;
+float:left;
+}
+
+/*---------------------------CONTENT---------------------------*/
+#content_wrapper1 {
+width:900px;
+height:auto;
+margin:0 auto;
+background-color:#FFFFFF;
+background-image: url(bg_content.jpg);
+background-repeat:no-repeat;
+background-position: bottom;
+}
+
+#content_wrapper {
+width:880px;
+height:auto;
+margin:0 auto;
+padding:10px;
+background-image:url(foto1.jpg);
+background-repeat:no-repeat;
+background-position:top left;
+}
+
+#title {
+width:auto;
+height:auto;
+padding-left:250px;
+padding-top:35px;
+margin-bottom:50px;
+padding-right:5px;
+}
+
+h2 {
+font-size:49px;
+line-height:40px;
+color:#ABB293;
+font-weight:normal;
+margin:0;
+padding:0;
+padding-bottom:20px;
+text-align: justify;
+padding-right:5px;
+}
+
+#content_wrap {
+width:880px;
+height:auto;
+}
+
+#welcome {
+width:425px;
+height:auto;
+float:left;
+margin-right:30px;
+}
+
+h3 {
+font-size:25px;
+color:#867B7B;
+font-style:italic;
+font-weight:normal;
+font-family:"Trebuchet MS";
+margin:0;
+padding:0;
+margin-left:24px;
+padding-bottom:5px;
+border-top:1px solid #EBF2C7;
+padding-top:5px;
+}
+
+#wel_content {
+width:auto;
+height:auto;
+background-image:url(arrow.jpg);
+background-repeat:no-repeat;
+background-position:top left;
+padding-left:24px;
+}
+
+#about {
+width:425px;
+height:auto;
+float:left;
+}
+
+/*-------------------------SERVICES------------------*/
+
+#services_wrapper {
+width:880px;
+height:auto;
+padding:10px;
+margin:0 auto;
+}
+
+#our_services {
+width:200px;
+height:auto;
+float:left;
+margin-right:25px;
+}
+
+.ftitle {
+line-height:40px;
+width:auto;
+height: auto;
+font-size:50px;
+color:#B8C3C4;
+font-weight:bold;
+float:left;
+}
+
+#serv_content {
+width:140px;
+height:auto;
+float:right;
+}
+
+h4 {
+font-size:11px;
+color:#C5201E;
+font-weight:bold;
+margin:0;
+padding:0;
+background-color:#E2E6E7;
+border-bottom:#9BA4A5 1px solid;
+text-transform:uppercase;
+line-height:30px;
+padding-left:10px;
+margin-bottom:10px;
+}
+
+h5 {
+font-size:11px;
+color:#E67D0A;
+font-weight:bold;
+margin:0;
+padding:0;
+background-color:#E2E6E7;
+border-bottom:#9BA4A5 1px solid;
+text-transform:uppercase;
+line-height:30px;
+padding-left:10px;
+margin-bottom:10px;
+}
+
+h6 {
+font-size:11px;
+color:#97B515;
+font-weight:bold;
+margin:0;
+padding:0;
+background-color:#E2E6E7;
+border-bottom:#9BA4A5 1px solid;
+text-transform:uppercase;
+line-height:30px;
+padding-left:10px;
+margin-bottom:10px;
+}
+
+.h7 {
+color:#1CA58B;
+}
+
+#cases {
+width:200px;
+height:auto;
+float:left;
+}
+
+/*--------------------FOOTER------------------------*/
+
+#footer_wrapper {
+width:900px;
+height:60px;
+margin:0 auto;
+background-color:#96A2A3;
+background-image:url(footer_bg.jpg);
+background-repeat:no-repeat;
+background-position:bottom;
+text-align:center;
+padding-top:20px;
+font-size:11px;
+color:#fff;
+margin-bottom:10px;
+}
+
+.copyright {
+font-size:11px;
+color:#BAC3C4;
+}
